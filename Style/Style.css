@@ -1,0 +1,15 @@
+.titulo {}
+
+.tecla {
+    background-color: rgb(238, 133, 35);
+    padding: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    border-bottom: solid black 3px;
+    border-left: solid black 3px;
+
+}
+
+.tecla:active {
+    background-color: red;
+}

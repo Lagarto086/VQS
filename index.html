@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <h1 class="titulo">In The End</h1>
+    <button class="tecla" onclick="playDs()">D#</button>
+    <button class="tecla" onclick="playF()">F</button>
+    <button class="tecla" onclick="playFs()">F#</button>
+    <button class="tecla" onclick="playAs()">A#</button>
+
+    <script>
+        let playDs = () => new Audio("Notas/Ds.mp3").play()
+        let playF = () => new Audio("Notas/F.mp3").play()
+        let playFs = () => new Audio("Notas/Fs.mp3").play()
+        let playAs = () => new Audio("Notas/As.mp3").play()
+    </script>
+
+    <h1 class="titulo">My Way</h1>
+    <button class="tecla" onclick="playCheck1()">Check</button>
+    <button class="tecla" onclick="playCheck2()">Check Out</button>
+    <button class="tecla" onclick="playCheck3()">Check Out My Melody</button>
+
+
+    <script>
+        let playCheck1 = () => new Audio("Notas/Samples/Check1.mp3").play()
+        let playCheck2 = () => new Audio("Notas/Samples/Check2.mp3").play()
+        let playCheck3 = () => new Audio("Notas/Samples/Check3.mp3").play()
+    </script>
+
+
+
+
+</body>
+
+</html>
